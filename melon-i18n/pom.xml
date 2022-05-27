@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.melon</groupId>
     <artifactId>melon-i18n</artifactId>
+    <version>1.0.0.RELEASE</version>
 
     <dependencies>
         <dependency>
