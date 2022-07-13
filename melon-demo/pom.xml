@@ -9,20 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.melon</groupId>
-    <artifactId>melon-i18n</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <artifactId>melon-demo</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>com.melon</groupId>
-            <artifactId>melon-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
